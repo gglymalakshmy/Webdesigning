@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>Become a Harry Potter Fan</h3>
+    <form style="font-size:14px">
+    <!-- textbox -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="Age">Age: </label>
+    <input type="text" id="age" name="age"><br><br>
+    <!-- radio -->
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="mgender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="fgender" value="Female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="ogender" value="other">
+    <label for="other">Other</label><br><br>
+    <!-- select -->
+    <label for="books">Favorite Book:</label>
+    <select id="books" name="select books">
+      <option value="">Select a book</option>
+      <option value="stone">Harry Potter and the Sorcerer’s Stone</option>
+      <option value="chamber">Harry Potter and the Chamber of Secrets</option>
+      <option value="prisoner">Harry potter and the prisoner of azkaban</option>
+      <option value="Fire">Harry Potter and the Goblet of Fire</option>
+    </select><br><br>
+    <!-- Upload Image -->
+    <label for="books">Profile Picture:</label>
+    <input type="file" id="myFile" name="filename"><br><br>
+    <!-- Checkbox -->
+    <label for="hobbies">Hobbies:</label><br>
+    <input type="checkbox" id="Hb1" name="Hb1" value="Read">
+    <label for="Hb1">Reading</label><br>
+    <input type="checkbox" id="Hb2" name="Hb2" value="Write">
+    <label for="Hb2">Writing</label><br>
+    <input type="checkbox" id="Hb3" name="Hb3" value="Draw">
+    <label for="Hb3">Drawing</label><br>
+    <input type="checkbox" id="Hb4" name="Hb4" value="Cos">
+    <label for="Hb4">Cosplaying</label><br><br>
+    <!-- Comments -->
+    <label for="comm">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+    <br>
+    </form>
+</body>
+</html>
